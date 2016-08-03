@@ -1,0 +1,163 @@
+/*.dropdown-menu{
+    margin-left:248px;
+    margin-top:10px;
+}*/
+
+
+
+
+
+
+body{
+    background-color:#4F6781;
+}
+
+
+a:link{
+    text-decoration: none;
+}
+a:hover{
+    color:white;
+}
+
+
+.leftMenu{
+    height:55px;
+    background-color:white;
+}
+.leftMenu:hover{
+    color:white;
+    background-color:lightblue;
+}
+.leftMenuContact{
+    background-color:#8c8c8c;
+    font-weight:bold;
+    font-size:15px;
+    height:140px;
+    color:white;
+    
+}
+.leftMenuGliph{
+    margin:15px;
+}
+
+.BlogType{
+    font-style: oblique;
+    font-variant: small-caps;
+    font-family: "Times New Roman", Georgia, Serif;
+    color:white;
+    background-color:#142840;
+}
+
+.SocCircle{
+    color:#C5CED2;
+    background-color:white;
+}
+
+.soc{
+    margin-top:10px;
+    color:black;
+    font-weight:bold;
+}
+.soc:hover{
+    color:lightblue;
+}
+.socIcon{
+    border-radius:50%;
+    margin:5px;
+}
+
+.arrow{
+    background-color:lightblue;
+    border-radius: 50%;
+    margin-left:20px;
+}
+.socBigIcon{
+    background-color:lightblue;
+    margin:20px;  
+}
+.socBigIconN{
+    margin-left:35px;
+    font-weight: bold;
+}
+
+
+
+/*EMBED VIDEO BAR*/
+
+.holder{
+    position:relative;
+}
+.frame{
+    width: 100%;
+}
+.bar{
+    position:absolute;
+    top:0;
+    left:0;
+    width:20%;
+    height:100%;
+    background-color:rgba(0, 107, 179, 0.75);
+}
+
+/*End of EMBED VIDEO BAR*/
+.FavVideo{
+    padding:19px;
+}
+.Gbar{
+    font-size: 37px;
+    color:white;
+    margin:25px;
+}
+.hearthArrow{
+    padding:20px;
+    font-size:44px;
+}
+
+/************** IMAGE with Birds******************/
+ .fill {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    overflow:hidden;
+    margin-botom:10px;
+}
+.fill img {
+    flex-shrink:0;
+    min-width:100%;
+    min-height:100%
+}
+
+
+
+/*************CALENDAR with Carousel*************/
+
+
+/*************TRIANGLE*************/
+.triangle-up-left:after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    margin-left: -500px;
+    border-bottom: 100px solid transparent;
+    border-left: 100px solid #4679BD;
+    float:left;
+    margin:0.5%;
+    position:absolute;
+}
+/*************END of TRIANGLE*************/
+
+/*************HEREO text*************/
+
+@media screen and (min-width: 480px) {
+    body {
+        
+        text-align:center;
+    }
+    .Mandala {
+    display: block;
+    margin: 4px;
+    height:64px;
+}
+}
