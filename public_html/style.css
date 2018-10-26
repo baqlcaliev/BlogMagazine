@@ -20,6 +20,11 @@ a:hover {
     font-size: 15px;
     color: white;
 }
+.signIn {
+    margin: 15px 0px;
+    padding: 5px;
+    background-color: #EA6060;
+}
 .leftMenuContact .containerInner {
     margin: 10px;
     display: inline-block;
