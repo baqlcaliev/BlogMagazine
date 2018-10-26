@@ -1,3 +1,3 @@
 # BlogMagazine
 
-https://baqlcaliev.github.io/BlogMagazine/index.html
+https://baqlcaliev.github.io/BlogMagazine/public_html/index.html
