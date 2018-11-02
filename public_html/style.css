@@ -1,43 +1,65 @@
-body{
-    background-color:#4F6781;
+body {
+    background-image: url("bootstrap-3.3.7-dist/fonts/img/bg-black.jpg");
 }
 
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 10px 0px;
+}
 
-a:link{
+a:link {
     text-decoration: none;
 }
+
 a:hover {
     color: #ea6060;
 }
 
-.leftMenu:hover{
-    color:white;
-    background-color:lightblue;
+.container {
+    background-color: #ffffffb3;
+    padding: 10px;
 }
+
+.leftMenu:hover {
+    color: white;
+    background-color: lightblue;
+}
+
 .leftMenuContact {
     background-color: #8c8c8c;
     font-weight: bold;
     font-size: 15px;
     color: white;
 }
+
 .signIn {
-    margin: 15px 0px;
+    margin: 5px 0px;
     padding: 5px;
     background-color: #EA6060;
 }
+
 .leftMenuContact .containerInner {
     margin: 10px;
     display: inline-block;
 }
-.leftMenuGliph{
-    margin:15px;
+
+.leftMenuGliph {
+    margin: 15px;
 }
+
 .leftMenuBoby div {
     max-width: 260px;
     display: block;
     margin: auto;
     text-align: left;
 }
+
 .BlogType {
     font-style: oblique;
     font-variant: small-caps;
@@ -47,10 +69,20 @@ a:hover {
     text-align: left;
 }
 
+.BlogType .containerInner {
+    margin: 5px 0px;
+}
+
 .SocCircle {
     color: #C5CED2;
     background-color: #4D6BAB;
+    box-shadow: 3px 3px 3px black;
 }
+
+.signJoin {
+    padding: 0px 15px 0px 0px;
+}
+
 .SocCircle div {
     max-width: 114px;
     text-align: left;
@@ -58,83 +90,114 @@ a:hover {
     margin: 7px auto;
 }
 
-.soc{
-    margin-top:10px;
-    color:black;
-    font-weight:bold;
+.follow div {
+    box-shadow: 5px 5px 10px black;
 }
-.soc:hover{
-    color:lightblue;
+
+.soc {
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
 }
-.socIcon{
-    border-radius:50%;
-    margin:5px;
+
+.soc:hover {
+    color: lightblue;
+}
+
+.socIcon {
+    border-radius: 50%;
+    margin: 5px;
 }
 
 .arrow {
     margin-left: 20px;
 }
+
 .socBigIcon {
     margin: 20px;
 }
+
 .socBigIconN {
     margin: 0px;
     font-weight: bold;
 }
 
+.mandala .col-md-12 {
+    margin: 10px 0px;
+}
+
+.mandala .col-md-5,
+.mandala .col-md-7 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.yellowGreen {}
+
+.thead tr:nth-child(1),
+.white {
+    background: white;
+}
 
 
 /*EMBED VIDEO BAR*/
 
-.holder{
-    position:relative;
+.holder {
+    position: relative;
 }
-.frame{
+
+.frame {
     width: 100%;
 }
-.bar{
-    position:absolute;
-    top:0;
-    left:0;
-    width:20%;
-    height:100%;
-    background-color:rgba(0, 107, 179, 0.75);
+
+.bar {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 20%;
+    height: 100%;
+    background-color: rgba(0, 107, 179, 0.75);
 }
+
 
 /*End of EMBED VIDEO BAR*/
-.FavVideo{
-    padding:19px;
+
+.FavVideo {
+    padding: 19px;
 }
-.Gbar{
+
+.Gbar {
     font-size: 37px;
-    color:white;
-    margin:25px;
+    color: white;
+    margin: 25px;
 }
-.hearthArrow{
-    padding:20px;
-    font-size:44px;
+
+.hearthArrow {
+    padding: 20px;
+    font-size: 44px;
+    background-color: #4D6BAB;
+    color: #EA6060;
 }
+
 
 /************** IMAGE with Birds******************/
- .fill {
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    overflow:hidden;
-    margin-botom:10px;
-}
-.fill img {
-    flex-shrink:0;
-    min-width:100%;
-    min-height:100%
+
+.fill {
+    overflow: auto;
 }
 
+.fill img {
+    flex-shrink: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
 
 
 /*************CALENDAR with Carousel*************/
 
 
 /*************TRIANGLE*************/
+
 .triangle-up-left:after {
     content: "";
     display: block;
@@ -143,22 +206,58 @@ a:hover {
     margin-left: -500px;
     border-bottom: 100px solid transparent;
     border-left: 100px solid #4679BD;
-    float:left;
-    margin:0.5%;
-    position:absolute;
+    float: left;
+    margin: 0.5%;
+    position: absolute;
 }
+
+
 /*************END of TRIANGLE*************/
+
+.pad {
+    background-color: #4D6BAB;
+    color: white;
+    margin: 10px 0px;
+}
+
+.pad div {
+    padding: 10px;
+    text-align: left;
+}
+
 
 /*************HEREO text*************/
 
-@media screen and (min-width: 480px) {
-    body {
-        
-        text-align:center;
-    }
-    .Mandala {
-    display: block;
-    margin: 4px;
-    height:64px;
+.tab-content>.active {
+    min-height: 160px;
+    background: #4d6bab;
+    color: white;
+    padding: 10px;
+    text-align: left;
 }
+
+.nav-tabs>li>a:hover {
+    color: #ea6060;
+}
+
+footer {
+    padding: 20px 0px;
+    text-align: center;
+}
+
+.panel-body {
+    padding: 15px 0px;
+}
+
+@media (max-width: 480px) {
+    .mandala .col-md-12 {
+        display: inline-block;
+        width: 49%;
+    }
+    .leftMenuBoby {
+        display: none;
+    }
+    body {
+        text-align: center;
+    }
 }
